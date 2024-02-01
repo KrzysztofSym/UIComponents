@@ -37,13 +37,13 @@ indicators();
 }
 
 // Auto slideing
-// function autoSliding(){
-//     deletInterval = setInterval(timer, 3000);
-//     function timer(){
-//         slideNext();
-//         indicators();
-//     }
-// }
+function autoSliding(){
+    deletInterval = setInterval(timer, 3000);
+    function timer(){
+        slideNext();
+        indicators();
+    }
+}
 autoSliding();
 
 // Stop auto sliding when mouse is over
